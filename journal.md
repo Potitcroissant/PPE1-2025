@@ -9,4 +9,4 @@ Ensuite pour les exercices trois et quatre, je me suis aidée du diaporama mais 
 
 Exercice 4:
 Ce script calcul le nombre d'URL valide et non valide contenu dans un fichier.
-Il faut d'abord entrer 1 en argument, sinon le script s'arrête. Ensuite, il lit chaque ligne du fichier contenant des URL, pour chaque lignes commencant par http:// ou https://, le script affiche que l'URL est valide sinon, qu'il ne l'est pas. En arrivant à la fin du fichier, le script affiche le nombre de ligne commençant par une URL valide et le nombre de ligne ne commençant pas par une URL valide.
+Il faut d'abord ajouter un seul argument à la commande, sinon le script s'arrête. Ensuite, il lit chaque ligne du fichier contenant des URL, pour chaque lignes commencant par http:// ou https://, le script affiche que l'URL est valide sinon, qu'il ne l'est pas. En arrivant à la fin du fichier, le script affiche le nombre de ligne commençant par une URL valide et le nombre de ligne ne commençant pas par une URL valide.
