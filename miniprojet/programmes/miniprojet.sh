@@ -15,4 +15,4 @@ do
     
 	echo -e "${x}\t${line} \t${code_HTTP}\t${mots}\t${encodage}";
 	x=$(expr $x + 1)
-done < $URLS;
+done < $URLS > ./tableaux/tableau-fr.tsv;
