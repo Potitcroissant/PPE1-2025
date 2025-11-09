@@ -20,3 +20,11 @@ J'ai demandé de l'aide à une camarade pour afficher le code HTTP et cela m'a a
 Toutefois, le script ne marchait pas totalement car une erreur s'affichait à la ligne 6, précisant que l'accès au site https://roboty.magistry.fr/ était impossible. En utilisant la commande "curl -i https://roboty.magistry.fr/", le terminal m'indique que le certificat de ce site a expiré et me renvoie vers un site m'expliquant comment résoudre le problème. Ce site me propose d'utiliser la commande -k/--insecure afin de ne pas passer par l'étape de vérification, mais il précise aussi que cela est très peu recommandé, donc dans le doute, je n'ai pas essayé.
 De plus, quand la varaible pour afficher le nombre de mot est placée après la variable pour afficher l'encodage dans la ligne echo, le nombre de mot s'affiche à un endroit aléatoire de la ligne (parfois à la place du "http" de l'URL ou du "char" de "charset"), c'est pourquoi j'ai placé la variable de l'encodage à la fin de la ligne.
 Pour finir, j'ai créé un fichier tsv en écrivant la commande pour éxécuter le script suivi de "> tableaux/tableau-fr.tsv".
+
+## 05/11/25
+J'ai modifié le script du projet 1 en ajoutant la redirection vers un tableau tsv dans le script.
+
+D'abord, j'avais modifié la ligne echo en y ajoutant tout le code HTML, mais cela a créé un nouveau tableau pour chaque ligne. J'ai donc dû écrire plusieurs ligne echo, avant et après la boucle.
+Nénamoins, pour que la commande echo fonctionne correctement, il faut la partie entre guillemet (à afficher) soit sur une seule ligne. Or, le code HTML s'écrit normalement sur plusieurs ligne pour être plus lisible. C'est pourquoi je ne suis pas sûre que mon code soit le plus optimal car le code HTML n'est pas clair et il serait difficile de faire des modifications dessus en cas de problèmes. J'avais écrit le code HTML sur un éditeur de code afin d'être sûre qu'il fonctionne avant de le coller dans les différentes commandes echo.
+
+Pour finir, j'ai changé la redirection vers un fichier HTML en ajoutant une nouvelle variable "OUTPUT".
