@@ -28,3 +28,15 @@ D'abord, j'avais modifié la ligne echo en y ajoutant tout le code HTML, mais ce
 Nénamoins, pour que la commande echo fonctionne correctement, il faut la partie entre guillemet (à afficher) soit sur une seule ligne. Or, le code HTML s'écrit normalement sur plusieurs ligne pour être plus lisible. C'est pourquoi je ne suis pas sûre que mon code soit le plus optimal car le code HTML n'est pas clair et il serait difficile de faire des modifications dessus en cas de problèmes. J'avais écrit le code HTML sur un éditeur de code afin d'être sûre qu'il fonctionne avant de le coller dans les différentes commandes echo.
 
 Pour finir, j'ai changé la redirection vers un fichier HTML en ajoutant une nouvelle variable "OUTPUT".
+
+## 12/11/25
+J'ai modifié légèrement le script en ajoutant uniquement -e à la commande echo afin de pouvoir retourner à la ligne dans le code HTML.
+
+J'ai rédigé la page index puis l'ai push sur le dépôt. Ensuite, j'ai créé la page GitHub, comme vu durant le cours.
+Le lien fonctionnait correctement alors j'ai commencé à modfier les pages HTML avec Gulma.
+
+J'ai rajouté la balise "link" dans le code et ai recherché dans la documentation Gulma tous les attributs dont j'avais besoin. Cela m'a pris beaucoup de temps car j'avais du mal à trouver les informations que je recherchais dans la documentation.
+
+Finalement j'ai copié le code HTML de ma copie de la page du tableau vers le script.
+
+Enfin, j'ai ajouté les changements sur le dépôt et ai testé une dernière fois que tout marchais correctement.
